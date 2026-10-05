@@ -1,0 +1,10 @@
+* NodeJS 101
+[Shelley] Chapter 1
+
+- [X] Quick recap
+- [X] Web Programming languages and the Web
+- [X] NodeJS
+- [X] Hello world application
+- [X] Common pitfalls: const, var & let
+- [X] == vs ===
+- [X] Building first web application

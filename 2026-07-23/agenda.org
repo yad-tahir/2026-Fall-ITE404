@@ -1,0 +1,8 @@
+* Introduction to Web Systems
+
+- [X] Recap previous lecture
+- [X] Web Technology and Web Systems
+- [X] World Wide Web
+- [X] HTTP and HTTPs
+- [X] HTTP Request and HTTP Response
+- [X] Demo
