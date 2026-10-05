@@ -1,0 +1,7 @@
+* Functional Programming in NodeJS
+[Shelley] Chapter 1
+
+- [X] Recap previous lecture
+- [X] Functional programming
+- [X] Functional programming with HTTP module
+- [X] Demo
