@@ -1,0 +1,13 @@
+* HTML/CSS with NodeJS
+[Shelley] Chapter 1 and 2
+
+- [X] Recap previous lecture
+- [X] HTTP Request and HTTP Response
+- [X] HTTP Headers
+- [X] Content-Type
+- [X] User-Agent
+- [X] HTTP Status Code: 200
+- [X] Dynamic HTML per URL (Bright theme and Dark theme)
+- [X] Dynamic HTML content: Date and Time
+- [X] H.W. Printing Date and Time 100 times *IMPORTANT*
+- [X] HTML whitespacing
