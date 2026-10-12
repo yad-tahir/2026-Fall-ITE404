@@ -1,0 +1,8 @@
+* Inputs in Web Applications
+[Shelley] Chapter 5
+
+- [X] Recap previous lecture
+- [X] User interactions and user inputs
+- [X] HTML forms and Web servers
+- [X] HTTP *GET* method
+- [X] Demo
