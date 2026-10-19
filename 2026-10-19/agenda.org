@@ -1,0 +1,7 @@
+* Templates in Web Applications
+[Shelley] Chapter 10
+
+- [X] Template Engine
+- [X] EJS as template
+- [X] Two modes
+- [X] Passing data to a template
