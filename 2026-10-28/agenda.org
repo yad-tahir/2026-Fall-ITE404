@@ -1,0 +1,8 @@
+* Stateful Web Applications
+[Shelley] Chapter 6
+
+- [ ] What are stateful Web systems?
+- [ ] What are stateless Web systems?
+- [ ] Advantages/Disadvantages
+- [ ] Cookies
+- [ ] Web Sessions
