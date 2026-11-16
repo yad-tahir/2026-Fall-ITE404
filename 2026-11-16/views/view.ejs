@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Client</title>
+</head>
+<body>
+<h2>Simple Rich Application </h2>
+
+	<button onclick="getData()">Get Users (GET)</button>
+	<pre id="output">No request made yet.</pre>
+
+	<script>
+	  //JS Eng. on the client side
+		const API_URL = 'http://localhost:3000/api';
+
+		//AJAX
+		async function getData() {
+
+			try {
+
+				const response = await fetch(`${API_URL}/users`);
+				const data = await response.json();
+				document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+
+			} catch (error) {
+
+				document.getElementById('output').textContent = 'Error: ' + error.message;
+			}
+		}
+
+	</script>
+</body>
+</html>
