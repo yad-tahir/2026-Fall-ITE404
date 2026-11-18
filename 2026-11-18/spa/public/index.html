@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist SPA</title>
+    <style>
+	body { font-family: Arial, sans-serif; max-width: 600px; margin: 2rem auto; padding: 1rem; }
+	.song-list { list-style: none; padding: 0; }
+	.song-item { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #ccc; }
+	.song-info { display: flex; flex-direction: column; }
+	.song-artist { font-size: 0.85em; color: #666; }
+	.action-btns { display: flex; gap: 5px; }
+	.view-btn { background: #007BFF; color: white; border: none; cursor: pointer; padding: 5px 10px; }
+	.delete-btn { background: red; color: white; border: none; cursor: pointer; padding: 5px 10px; }
+	.form-group { display: flex; gap: 10px; margin-bottom: 20px; }
+	input[type="text"] { flex-grow: 1; padding: 8px; }
+	button { padding: 8px 15px; cursor: pointer; }
+	.song-details { display: none; margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9; }
+    </style>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Playlist Manager SPA</h1>
+    <div class="form-group">
+	<input type="text" id="titleInput" placeholder="Song title...">
+	<input type="text" id="artistInput" placeholder="Artist...">
+	<button id="addSongBtn">Add Song</button>
+    </div>
+
+    <ul id="songList" class="song-list"></ul>
+
+    <div id="songDetails" class="song-details">
+	<h2>Song Details</h2>
+	<p><strong>ID:</strong> <span id="detailId"></span></p>
+	<p><strong>Title:</strong> <span id="detailTitle"></span></p>
+	<p><strong>Artist:</strong> <span id="detailArtist"></span></p>
+    </div>
+</body>
+</html>

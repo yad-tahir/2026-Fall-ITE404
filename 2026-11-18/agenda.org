@@ -1,0 +1,9 @@
+* Modern Web Applications - Part 2
+
+- [X] Recap - Part 1
+- [X] AJAX + HTTP Post requests
+- [X] Backend = Web Services
+- [X] Single Page Application (SPA)
+- [X] SPA Demo - Music Playlist
+- [X] H.W. Making a SPA bookmark-able
+- [X] Lab Add to favorite functionality to the music playlist app
